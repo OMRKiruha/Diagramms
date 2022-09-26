@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T06:20:57.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.6" etag="xysg77cWUQJ3bSK5zpT0" type="github"><diagram id="zvHaVaip3HxK8wFtQaT3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-26T06:26:35.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nIh5LQvshSW1r0hEI7nY" version="20.3.6" type="github">
+  <diagram id="zvHaVaip3HxK8wFtQaT3" name="Страница 1">
+    <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-1" value="ERDCore.h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-2" value="Configuration/Store.h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyjJM6VS8CyKdPyFCLlB-4" target="VyjJM6VS8CyKdPyFCLlB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyjJM6VS8CyKdPyFCLlB-4" target="VyjJM6VS8CyKdPyFCLlB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="260" />
+              <mxPoint x="85" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-4" value="Configuration/Object.h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyjJM6VS8CyKdPyFCLlB-7" target="VyjJM6VS8CyKdPyFCLlB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyjJM6VS8CyKdPyFCLlB-7" target="VyjJM6VS8CyKdPyFCLlB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyjJM6VS8CyKdPyFCLlB-7" target="VyjJM6VS8CyKdPyFCLlB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-7" value="Configuration/Object.cpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-9" value="Configuration/LocalStore.h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VyjJM6VS8CyKdPyFCLlB-10" value="Configuration/JsonStore.h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
